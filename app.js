@@ -70,11 +70,12 @@ function showOverlayIfMobile() {
         overlay.style.zIndex = 9999;
         overlay.innerHTML = `
             <h2 style="margin-bottom: 20px;">Website is under construction</h2>
-            <p style="font-size: 18px;">Use Desktop or DesktopSite for best experience</p>
+            <p style="font-size: 18px;">Use Desktop for best experience</p>
         `;
         document.body.appendChild(overlay);
     }
 }
 
 showOverlayIfMobile();
+
 // ...existing code...
